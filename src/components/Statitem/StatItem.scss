@@ -1,0 +1,99 @@
+@import './../../scss/vars';
+
+.stat {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+    .image {
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+        &.speed {
+            background-image: url(./../../assets/speed.png);
+        }
+        &.hp {
+            background-image: url(./../../assets/hp.png);
+        }
+        &.defense {
+            background-image: url(./../../assets/defense.png);
+        }
+        &.attack {
+            background-image: url(./../../assets/attack.png);
+        }
+        &.height {
+            background-image: url(./../../assets/height.png);
+        }
+        &.weight {
+            background-image: url(./../../assets/weight.png);
+        }
+
+
+        &.normal {
+            background-image: url(./../../assets/normal.png);
+        }
+        &.poison {
+            background-image: url(./../../assets/poison.png);
+        }
+        &.dark {
+            background-image: url(./../../assets/dark.png);
+        }
+        &.bug {
+            background-image: url(./../../assets/bug.png);
+        }
+        &.fairy {
+            background-image: url(./../../assets/fairy.png);
+        }
+
+        &.shadow {
+            background-image: url(./../../assets/shadow.png);
+        }
+        &.psychic {
+            background-image: url(./../../assets/psychic.png);
+        }
+        &.grass {
+            background-image: url(./../../assets/grass.png);
+        }
+        &.fire {
+            background-image: url(./../../assets/fire.png);
+        }
+        &.ice {
+            background-image: url(./../../assets/ice.png);
+        }
+
+        &.water {
+            background-image: url(./../../assets/water.png);
+        }
+        &.fighting {
+            background-image: url(./../../assets/fighting.png);
+        }
+        &.electric {
+            background-image: url(./../../assets/electric.png);
+        }
+        &.dragon {
+            background-image: url(./../../assets/dragon.png);
+        }
+        &.steel {
+            background-image: url(./../../assets/steel.png);
+        }
+
+        &.ghost {
+            background-image: url(./../../assets/ghost.png);
+        }
+        &.rock {
+            background-image: url(./../../assets/rock.png);
+        }
+        &.unknown {
+            background-image: url(./../../assets/unknown.png);
+        }
+        &.ground {
+            background-image: url(./../../assets/ground.png);
+        }
+        &.flying {
+            background-image: url(./../../assets/flying.png);
+        }
+
+    }
+}
+

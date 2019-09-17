@@ -1,0 +1,39 @@
+@import './../../scss/vars';
+
+
+.title {
+    margin: 15px 0;
+    text-shadow: 1px 1px white;
+}
+.stat {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 10px;
+    .image {
+        width: 28px;
+        height: 28px;
+        background-size: cover;
+        margin-right: 10px;
+        &.speed {
+            background-image: url(./../../assets/speed.png);
+        }
+        &.hp {
+            background-image: url(./../../assets/hp.png);
+        }
+        &.defense {
+            background-image: url(./../../assets/defense.png);
+        }
+        &.attack {
+            background-image: url(./../../assets/attack.png);
+        }
+        &.height {
+            background-image: url(./../../assets/height.png);
+        }
+        &.weight {
+            background-image: url(./../../assets/weight.png);
+        }
+    }
+}
+

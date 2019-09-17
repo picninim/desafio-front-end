@@ -1,0 +1,30 @@
+@import './scss/vars';
+
+
+@font-face {
+  font-family: 'Silom';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/SilomBol.ttf') format('truetype')
+}
+
+body {
+  margin: 0;
+  font-family: 'Silom', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.4em;
+  height: 100vh;
+  background-color: rgba($light-red, 0.4);
+}
+
+#root {
+  height: 100%;
+  max-width: 1024px;
+  margin: auto;
+
+  border: 9px solid $dark-red;
+  box-sizing: border-box;
+  border-top: 0;
+  border-bottom: 0;
+}

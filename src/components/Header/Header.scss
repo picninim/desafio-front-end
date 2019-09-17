@@ -1,0 +1,39 @@
+@import './../../scss/vars';
+
+.header {
+    height: 160px;
+    display: flex;
+    position: relative;
+    .view {
+        background-image: url(./../../assets/h-left.png);
+        height: 100%;
+        min-width: 160px;
+        max-width: 160px;
+        .pokemon-image {
+            width: 96px;
+            height: 96px;
+            margin-left: 21px;
+            margin-top: 21px;
+            background-size: contain;
+        }
+    }
+    .side {
+        width: 100%;
+        height: $h-side-height;
+        background: $red;
+        border: 5px solid $dark-red;
+        border-left: 0;
+        box-shadow: 0 5px $shadow-red;
+        color: white;
+        text-shadow: 1px 1px 0 $dark-red;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        box-sizing: border-box;
+        text-transform: capitalize;
+        .pokemom-name {
+            margin-left: -30px;
+        }
+    }
+}

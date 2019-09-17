@@ -1,0 +1,40 @@
+@import './../../scss/vars';
+
+.pokemon {
+    display: flex;
+    height: 72px;
+    font-size: 0.7em;
+    > div {
+        &.selected {
+            background-color: rgba($red, 0.2)
+        }
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        border-bottom: 1px solid $light-red;
+        width: 100%;
+        position: relative;
+    }
+    > p {
+        text-align: center;
+    }
+
+    .image {
+        width: 70px;
+        height: 70px;
+        background-size: contain;
+    }
+    .name {
+        text-transform: capitalize;
+    }
+    .captured {
+        background-image: url('./../../assets/pokeball.png');
+        background-size: cover;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        right: 16px;
+    }
+}
+

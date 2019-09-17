@@ -1,0 +1,26 @@
+@import './../../scss/vars';
+
+.content {
+  height: 100vh;
+  margin-top: -160px;
+  display: flex;
+  .list-container {
+    min-width: 265px;
+    padding-top: $h-height;
+    .controller {
+      display: flex;
+      justify-content: space-evenly;
+      .button {
+        font-size: 0.7em
+      }
+    }
+  }
+  .stats-container {
+    margin-top: $h-side-height;
+    width: 100%;
+    background-color: $light-red;
+    overflow: auto;
+    padding-left: 10px;
+    border-left: 5px solid $shadow-red;
+  }
+}

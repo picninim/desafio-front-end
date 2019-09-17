@@ -1,0 +1,30 @@
+@import './../../scss/vars';
+
+.select-type {
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.43);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+    overflow: auto;
+    >  div {
+      margin: auto;
+      max-width: 200px;
+      width: 100%;
+      animation: animate 0.3s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease-in-out;
+    }
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(100vh)
+  }
+  100% {
+    transform: translateY(0)
+  }
+}
